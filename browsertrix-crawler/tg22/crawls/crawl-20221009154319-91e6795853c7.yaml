@@ -1,0 +1,92 @@
+seeds:
+  - url: https://www.gathering.org/tg22/
+    include: www.gathering.org/(tg22|api)
+collection: tg22
+behaviors: autoscroll,autoplay,autofetch,siteSpecific
+waitUntil: load,networkidle0
+generateCDX: true
+combineWARCs: true
+saveState: always
+workers: 2
+newContext: window
+screencastPort: 9037
+warcinfo:
+  operator: The Gathering
+  hostname: gathering.org
+state:
+  queued:
+    - '{"url":"https://www.gathering.org/tg22/article/4448/mailto:tg20event-editorial@list.gathering.org","seedId":0,"depth":3}'
+    - '{"url":"https://www.gathering.org/tg22/article/4534/mailto:tg20event-editorial@list.gathering.org","seedId":0,"depth":3}'
+    - '{"url":"https://www.gathering.org/tg22/article/4950/mailto:tg20event-editorial@list.gathering.org","seedId":0,"depth":3}'
+    - '{"url":"https://www.gathering.org/tg22/article/5263/mailto:tg20event-editorial@list.gathering.org","seedId":0,"depth":3}'
+    - '{"url":"https://www.gathering.org/tg22/article/5260/mailto:tg20event-editorial@list.gathering.org","seedId":0,"depth":3}'
+    - '{"url":"https://www.gathering.org/tg22/article/5289/mailto:tg20event-editorial@list.gathering.org","seedId":0,"depth":3}'
+    - '{"url":"https://www.gathering.org/tg22/article/5329/mailto:tg20event-editorial@list.gathering.org","seedId":0,"depth":3}'
+    - '{"url":"https://www.gathering.org/tg22/article/5335/mailto:tg20event-editorial@list.gathering.org","seedId":0,"depth":3}'
+    - '{"url":"https://www.gathering.org/tg22/article/5396/mailto:tg20event-editorial@list.gathering.org","seedId":0,"depth":3}'
+    - '{"url":"https://www.gathering.org/api/wp-content/uploads/2019/04/fifa-vinner.jpg","seedId":0,"depth":3}'
+    - '{"url":"https://www.gathering.org/tg22/article/6523/mailto:tg20event-editorial@list.gathering.org","seedId":0,"depth":3}'
+    - '{"url":"https://www.gathering.org/tg22/article/4288/mailto:tg20event-editorial@list.gathering.org","seedId":0,"depth":3}'
+    - '{"url":"https://www.gathering.org/tg22/article/5082/mailto:tg20event-editorial@list.gathering.org","seedId":0,"depth":3}'
+    - '{"url":"https://www.gathering.org/tg22/article/6089/mailto:tg20event-editorial@list.gathering.org","seedId":0,"depth":3}'
+  pending:
+    - '{"url":"https://www.gathering.org/tg22/article/7770/mailto:tg20event-editorial@list.gathering.org","seedId":0,"depth":2,"started":"2022-10-09T15:41:54.074Z"}'
+    - '{"url":"https://www.gathering.org/tg22/article/6108/mailto:tg20event-editorial@list.gathering.org","seedId":0,"depth":3,"started":"2022-10-09T15:43:17.811Z"}'
+  done:
+    - '{"url":"https://www.gathering.org/tg22/article/4448/reglement-spillkonkurranser","seedId":0,"depth":2,"started":"2022-10-09T15:40:17.807Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/article/4534/pamelding-til-spillkonkurransene-er-live","seedId":0,"depth":2,"started":"2022-10-09T15:38:54.066Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/article/4950/ulvespill-e-sport-gikk-av-med-seier-i-rocket-league","seedId":0,"depth":2,"started":"2022-10-09T15:37:17.803Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/article/5263/lithium-vant-overwatch-konkurransen","seedId":0,"depth":2,"started":"2022-10-09T15:35:54.016Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/article/5260/wedemboiz-seiret-i-pubg","seedId":0,"depth":2,"started":"2022-10-09T15:34:17.747Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/article/5289/team-nitro-vant-fortnite-finalen","seedId":0,"depth":2,"started":"2022-10-09T15:32:54.007Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/article/5329/sigurd-seiret-i-beatsaber","seedId":0,"depth":2,"started":"2022-10-09T15:31:17.736Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/article/5335/troille-seiret-i-hearthstone","seedId":0,"depth":2,"started":"2022-10-09T15:29:54.001Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/article/5396/jevnspilt-finale-i-fifa","seedId":0,"depth":2,"started":"2022-10-09T15:28:17.733Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/article/6523/webinar-e-sport-pa-university-of-akron","seedId":0,"depth":2,"started":"2022-10-09T15:26:53.996Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/article/7843/mailto:tg20event-editorial@list.gathering.org","seedId":0,"depth":2,"started":"2022-10-09T15:25:17.729Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/article/8135/mailto:tg20event-editorial@list.gathering.org","seedId":0,"depth":2,"started":"2022-10-09T15:23:53.989Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/article/8222/mailto:tg20event-editorial@list.gathering.org","seedId":0,"depth":2,"started":"2022-10-09T15:22:17.684Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/article/4288/fast-cosplay","seedId":0,"depth":2,"started":"2022-10-09T15:20:53.947Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/article/5082/lyst-til-a-lage-et-brettspill","seedId":0,"depth":2,"started":"2022-10-09T15:19:17.683Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/article/5351/alle-cosplayere-hater-sitt-eget-kostyme-litt","seedId":0,"depth":2,"started":"2022-10-09T15:17:53.940Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/article/6089/arets-cosplaydommere-er-klare","seedId":0,"depth":2,"started":"2022-10-09T15:16:17.680Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/article/6108/kjor-inn-til-gull-med-kunstig-intelligens","seedId":0,"depth":2,"started":"2022-10-09T15:14:53.939Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/article/7836/mailto:tg20event-editorial@list.gathering.org","seedId":0,"depth":2,"started":"2022-10-09T15:13:17.680Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/article/7988/mailto:tg20event-editorial@list.gathering.org","seedId":0,"depth":2,"started":"2022-10-09T15:11:53.939Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/article/7997/mailto:tg20event-editorial@list.gathering.org","seedId":0,"depth":2,"started":"2022-10-09T15:10:17.674Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/article/7874/mailto:tg20event-editorial@list.gathering.org","seedId":0,"depth":2,"started":"2022-10-09T15:08:53.934Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/article/8004/mailto:tg20event-editorial@list.gathering.org","seedId":0,"depth":2,"started":"2022-10-09T15:07:17.672Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/article/8035/mailto:tg20event-editorial@list.gathering.org","seedId":0,"depth":2,"started":"2022-10-09T15:05:53.930Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/article/7869/mailto:tg20event-editorial@list.gathering.org","seedId":0,"depth":2,"started":"2022-10-09T15:04:17.670Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/page/cosplay-konkurransen-2","seedId":0,"depth":2,"started":"2022-10-09T15:02:53.929Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/page/kreative-konkurranser-pa-tg20","seedId":0,"depth":2,"started":"2022-10-09T15:01:17.669Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/page/e-sport-pa-tg20","seedId":0,"depth":2,"started":"2022-10-09T14:59:53.928Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/page/tg22online-rocket-league-turnering","seedId":0,"depth":2,"started":"2022-10-09T14:58:17.667Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/page/tg22-online-csgo-turnering","seedId":0,"depth":2,"started":"2022-10-09T14:56:53.905Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/page/tg22-online-league-of-legends-turnering","seedId":0,"depth":2,"started":"2022-10-09T14:55:17.647Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/page/visste-du-at","seedId":0,"depth":2,"started":"2022-10-09T14:53:53.900Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/page/presse","seedId":0,"depth":2,"started":"2022-10-09T14:52:17.642Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/page/mailto:tg20event-editorial@list.gathering.org","seedId":0,"depth":2,"started":"2022-10-09T14:50:53.893Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/innstillinger","seedId":0,"depth":1,"started":"2022-10-09T14:49:17.641Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/mailto:tg20event-editorial@list.gathering.org","seedId":0,"depth":1,"started":"2022-10-09T14:47:53.889Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/article/7770/game-konkurranser-pa-tgonline-22","seedId":0,"depth":1,"started":"2022-10-09T14:46:17.638Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/search?categories=24","seedId":0,"depth":1,"started":"2022-10-09T14:44:53.885Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/article/7843/tg22online-arrival","seedId":0,"depth":1,"started":"2022-10-09T14:43:17.632Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/article/8135/minecraft-pa-tg22online-arrival","seedId":0,"depth":1,"started":"2022-10-09T14:41:53.883Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/article/8222/rapport-etter-tg22online-arrival","seedId":0,"depth":1,"started":"2022-10-09T14:40:17.632Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/search?categories=19","seedId":0,"depth":1,"started":"2022-10-09T14:38:53.880Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/article/7836/tgonline-22-musikk-konkurranser","seedId":0,"depth":1,"started":"2022-10-09T14:37:17.629Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/article/7988/tg22online-grafikkonkurranser","seedId":0,"depth":1,"started":"2022-10-09T14:35:53.877Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/article/7997/tg22online-combined-demo","seedId":0,"depth":1,"started":"2022-10-09T14:34:17.627Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/article/7874/tg22online-discord","seedId":0,"depth":1,"started":"2022-10-09T14:32:53.891Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/article/8004/tg22online-frestyle-video","seedId":0,"depth":1,"started":"2022-10-09T14:31:17.641Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/article/8035/tghome","seedId":0,"depth":1,"started":"2022-10-09T14:29:53.889Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/article/7869/tg22online-creative","seedId":0,"depth":1,"started":"2022-10-09T14:28:17.634Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/page/game-konkurranser","seedId":0,"depth":1,"started":"2022-10-09T14:26:53.886Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22","seedId":0,"depth":1,"started":"2022-10-09T14:25:17.627Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/search","seedId":0,"depth":1,"started":"2022-10-09T14:23:53.879Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/page/kontakt","seedId":0,"depth":1,"started":"2022-10-09T14:22:17.624Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/page/partner","seedId":0,"depth":1,"started":"2022-10-09T14:20:53.876Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/page/konkurranser","seedId":0,"depth":1,"started":"2022-10-09T14:19:17.620Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/calendar","seedId":0,"depth":1,"started":"2022-10-09T14:17:53.780Z","failed":true}'
+    - '{"url":"https://www.gathering.org/tg22/","seedId":0,"depth":0,"started":"2022-10-09T14:16:17.575Z","failed":true}'
