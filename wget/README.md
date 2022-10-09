@@ -5,6 +5,7 @@ Captured using basic proceedure outlined in [go-archive-tools](https://github.co
 1. `wget -np -m -p -E -o wget.log https://www.gathering.org/tg22/`
 2. `extract_urls.sh | keep_asset_urls.sh | grep gathering.org | download_urls.sh`
 3. `extract_urls.sh | keep_asset_urls.sh | grep gathering.org | replace_with_local_urls.sh "/tg22"`
+4. Move `/static` files to `/tg22/static` (and calls in `web-client-....js` and `web-vendor-....css` files)
 4. Manual cleanup
 
    - Move `/static` files to `/tg22/static`
